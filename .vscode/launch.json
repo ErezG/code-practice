@@ -5,6 +5,12 @@
             "name": "Run Current JS File",
             "request": "launch",
             "program": "${file}"
+        },
+        {
+            "name": "Python Debugger: Python File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}"
         }
     ]
 }
